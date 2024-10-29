@@ -1,0 +1,54 @@
+.title-left {
+    text-align: center;
+    font-size: 24px; 
+  }
+  
+  .welcome-text {
+    text-align: center;
+    font-size: 28px; // Tamaño  para el "¡Bienvenido!"
+  }
+  
+  .info-title {
+    text-align: center;
+    font-size: 24px; // Tamaño  para "Información Adicional"
+    margin-top: 20px; // Espaciado superior
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 20px; // Espaciado inferior
+  }
+  
+  .input-item {
+    display: flex;
+    justify-content: space-between; // Espacio entre la etiqueta y el input
+    align-items: center; // Alinea verticalmente
+    margin-bottom: 15px; // Espaciado entre cada campo
+  }
+  
+  .input-item ion-label {
+    flex: 1; // Para que la etiqueta ocupe el espacio restante
+  }
+  
+  .input-item ion-input, 
+  .input-item ion-select, 
+  .input-item mat-form-field {
+    flex: 2; // Ajusta el tamaño del campo de entrada
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between; // Aumenta el espacio entre los botones
+    margin-top: 20px; // Espaciado superior
+  }
+  
+  .footer {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-size: 12px; // Tamaño de texto para el footer
+  }
+  
+  

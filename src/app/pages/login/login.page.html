@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="title">SkeletonAPP</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="login-title">
+    <h2>Aquí comienza todo</h2>
+    <h3>Bienvenido!</h3>
+  </div>
+
+  <form #loginForm="ngForm">
+    <ion-item>
+      <ion-label position="floating">Usuario</ion-label>
+      <ion-input type="text" [(ngModel)]="username" name="username" required minlength="3" maxlength="8"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input type="password" [(ngModel)]="password" name="password" required pattern="\\d{4}"></ion-input>
+    </ion-item>
+
+    <ion-button expand="full" (click)="onSubmit()">Ingresar</ion-button> 
+  </form>
+</ion-content>
+
+
+
